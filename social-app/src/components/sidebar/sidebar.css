@@ -1,0 +1,78 @@
+.sidebar {
+  flex: 3;
+  height: 90vh;
+  background-color: snow;
+  position: sticky;
+  top: 50px;
+  padding: 5px;
+  margin-top: 10px;
+  /* box-shadow: 10px 5px 5px red; */
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  background-color: snow;
+  box-shadow: 9px 3px 3px gainsboro;
+}
+
+.sidebarList {
+  margin: 0px;
+  padding: 4px;
+  list-style: none; /* Don't want list to have dots */
+}
+
+.sidebarListItem {
+  font-size: large;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  padding-right: 5.5px;
+  margin-right: 10px;
+}
+
+.sidebarFollowListUnfollow {
+  width: 10px;
+  height: 10px;
+  fill: tomato;
+}
+
+.sidebarHr {
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.sidebarFriendName {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: fill;
+  margin-right: 15px;
+}
+
+.addFriendInput {
+  margin: 5px;
+}
+
+/* s */

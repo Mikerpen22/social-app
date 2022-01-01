@@ -1,0 +1,91 @@
+.topbarContainer {
+  height: 50px;
+  width: 100%;
+  background-color: #26a7de;
+  display: flex; /*topbarLeft & Right & Center will use this flex with proportion 3:5:4*/
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+  /* background-color: bisque; */
+}
+
+.topbarCenter {
+  flex: 5;
+  /* background-color: chocolate; */
+}
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: cornsilk;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important; /*force this to work with material icons*/
+  margin-left: 2%;
+}
+
+.searchInput {
+  border: none;
+  width: 80%;
+}
+.searchInput:focus {
+  /* When click the input, don't want the outline border*/
+  outline: none;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: cornflowerblue; */
+}
+
+.topbarLink {
+  margin-left: 10px;
+  font: 9px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.topbarIcons {
+  display: flex;
+}
+.topbarIconItem {
+  margin-left: 12px;
+  cursor: pointer;
+  position: relative;
+}
+.topbarIconBadge {
+  width: 10px;
+  height: 10px;
+  background-color: crimson;
+  border-radius: 20px;
+  color: whitesmoke;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: -5px;
+  left: 12px;
+  font-size: 10px;
+}
+.topbarImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}

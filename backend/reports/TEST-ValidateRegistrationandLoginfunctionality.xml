@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Validate Registration and Login functionality" errors="0" tests="3" failures="0" time="0.033" timestamp="2021-11-15T21:24:58">
+  <testcase classname="Validate Registration and Login functionality" name="register new user" time="0.011"></testcase>
+  <testcase classname="Validate Registration and Login functionality" name="login user" time="0.011"></testcase>
+  <testcase classname="Validate Registration and Login functionality" name="logout user" time="0.011"></testcase>
+</testsuite>
+</testsuites>
